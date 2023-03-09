@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 body
@@ -49,4 +52,10 @@ hr
     cursor: pointer;
     font-size: 50px;
     background: white;
+}
+
+footer p, a
+{
+    text-align: center;
+    text-decoration: none;
 }

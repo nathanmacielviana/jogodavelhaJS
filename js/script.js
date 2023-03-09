@@ -51,14 +51,14 @@ function check() {
 
   for (pos of positions) {
     if (pos.every((item) => items.includes(item))) {
-      alert("O JOGADOR '" + playerLastMove + "' GANHOU!");
+      alert("O jogador '" + playerLastMove + "' ganhou!");
       init();
       return;
     }
   }
 
   if (selected.filter((item) => item).length === 9) {
-    alert("DEU EMPATE!");
+    alert("Empate!");
     init();
     return;
   }
